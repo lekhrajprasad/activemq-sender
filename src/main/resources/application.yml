@@ -1,0 +1,17 @@
+server:
+  port: 8080
+#Embedded active MQ
+#ActiveMQ supports multiple protocols to connect to the message broker. In this example, we will be using OpenWire protocol.
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    password: admin
+    user: admin
+
+email:
+  to: lekh565@gmail.com
+  from: lekh700@gmail.com
+  subject: Test email
+  body: This is a test email from sender
+  phone: 7795565234
+
